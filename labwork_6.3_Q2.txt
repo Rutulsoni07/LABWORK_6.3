@@ -1,0 +1,24 @@
+Q.2 Write a Program to print the factorial of number N using for loop.
+INPUT=
+
+#include <stdio.h>
+
+int main() {
+ int num,fact=1;
+ printf("enter any number:");
+ scanf("%d",&num);
+ 
+ for(int i=1;i <= num; i++){
+    fact=fact*i;
+
+     printf("factorial is:%d\n",fact);
+ }
+ 
+    return 0;
+}
+
+
+OUTPUT=
+enter any number:5
+factorial is:120
+ 

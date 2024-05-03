@@ -1,0 +1,32 @@
+Q.3 Write a Program to print the multiplication table of the number N using any type of loop.
+INPUT=
+#include <stdio.h>
+
+int main() {
+    int num,ans;
+   printf("enter any number:");
+   scanf("%d",&num);
+   
+   for(int i=1;i<=10;i++){
+ ans=num*i;
+       printf("%d*%d=:%d\n",num,i,ans);
+   }
+
+    return 0;
+}
+
+
+
+OUTPUT=
+
+enter any number:5
+5*1=:5
+5*2=:10
+5*3=:15
+5*4=:20
+5*5=:25
+5*6=:30
+5*7=:35
+5*8=:40
+5*9=:45
+5*10=:50

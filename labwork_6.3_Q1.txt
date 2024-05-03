@@ -1,0 +1,22 @@
+Q.1 Write a Program to print the sum of all numbers from 1 to N using for loop.
+
+INPUT=
+#include <stdio.h>
+
+int main() {
+  int num,sum=0;
+  printf("enter any number:");
+  scanf("%d",&num);
+
+  for(int i=1;i <= num;i++){
+    sum=sum+i;
+      printf("sum is: %d\n",sum);
+  }
+
+    return 0;
+}
+
+
+OUTPUT=
+enter any number:8
+sum is: 36
